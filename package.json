@@ -1,6 +1,20 @@
 {
   "name": "project1",
   "version": "1.0.0",
+  "main": "art.js",
+  "scripts": {
+    "start": "node art.js",   // 👈 Add this line
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+
+
+{
+  "name": "project1",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
